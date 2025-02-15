@@ -12,11 +12,15 @@ parent
 ├───test
 └───working
     └───content
+        |____.template.config
+            |____template.json
 ```
 - `parent` is the root folder for the template.
 - `test` is the folder where you can test the template.
 - `working` is the folder where the template files are stored.
 - `content` ????.
+- `.template.config` recognized by dotnet new as a template folder. should contain a `template.json` file.
+- `template.json` contains the metadata for the template. should be in the `.template.config` folder.
 - The `working` folder and `test` folder should be under the same `parent` folder
 
 # Useful Links
