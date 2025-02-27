@@ -19,4 +19,8 @@
         <Compile Remove="**\*" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="templates\console-with-dependency-injection\" />
+    </ItemGroup>
+
 </Project>
