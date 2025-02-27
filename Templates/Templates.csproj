@@ -1,10 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <PackageType>Template</PackageType>
+        <PackageVersion>0.1</PackageVersion>
+        <PackageId>AJK.Templates</PackageId>
+        <Title>DotNet New Templates</Title>
+        <Authors>Austin J. Kaylor</Authors>
+        <Description>Templates to use when creating something new.</Description>
+        <PackageTags>dotnet-new;templates;AJK</PackageTags>
         <TargetFramework>net9.0</TargetFramework>
-        <LangVersion>latestmajor</LangVersion>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <IncludeContentInPack>true</IncludeContentInPack>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <ContentTargetFolders>content</ContentTargetFolders>
     </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+        <Compile Remove="**\*" />
+    </ItemGroup>
 
 </Project>
