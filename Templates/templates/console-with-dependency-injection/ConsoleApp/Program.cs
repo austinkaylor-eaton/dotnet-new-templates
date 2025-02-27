@@ -1,3 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Microsoft.Extensions.Hosting;
 
-Console.WriteLine("Hello, World!");
+HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
+
+// TODO: Add your services to the container.
+
+using IHost host = builder.Build();
+await host.RunAsync();
