@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Austin J. Kaylor",
+  "classifications": [ "Common", "Console" ],
+  "identity": "AJK.Templates.Console.DependencyInjection",
+  "name": "AJK Templates: async console with dependency injection",
+  "shortName": "console-di",
+  "sourceName":"ConsoleApp",
+  "tags": {
+    "language": "C#",
+    "type": "project",
+    "platform": "net",
+    "framework": "net9.0",
+    "category": "Console",
+    "template": "Console"
+  }
+}
