@@ -3,8 +3,8 @@
   "author": "Austin J. Kaylor",
   "classifications": [ "Common", "Console" ],
   "identity": "AJK.Templates.Console.DependencyInjection",
-  "name": "AJK Templates: async console with dependency injection",
-  "shortName": "console-di",
+  "name": "AJK Templates: Async Console with Dependency Injection",
+  "shortName": "ajk-console-di",
   "sourceName":"ConsoleApp",
   "tags": {
     "language": "C#",
