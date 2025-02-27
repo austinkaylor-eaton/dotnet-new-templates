@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageType>Template</PackageType>
-        <PackageVersion>0.1</PackageVersion>
+        <PackageVersion>0.1.0-alpha</PackageVersion>
         <PackageId>AJK.Templates</PackageId>
         <Title>DotNet New Templates</Title>
         <Authors>Austin J. Kaylor</Authors>
