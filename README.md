@@ -33,6 +33,7 @@ parent
 - [dotnet/templating repository](https://github.com/dotnet/templating/)
 - [dotnet/templating wiki](https://github.com/dotnet/templating/wiki)
 - [template samples](https://github.com/dotnet/templating/tree/main/dotnet-template-samples)
+- [Sayedi Hashimi - Template Sample](https://github.com/sayedihashimi/template-sample?tab=readme-ov-file)
 ## template.json
 - [Full schema](https://json.schemastore.org/template)
 - [Deep-dive into each property](https://github.com/dotnet/templating/wiki/Reference-for-template.json)
